@@ -1,0 +1,1 @@
+Applique la méthode BAG. À partir du dossier sources/, rédige synthese.md : une note d'une page sur le marché de la formation professionnelle en France, avec les chiffres 2025 et l'évolution depuis 2023. Fais au mieux, je ne suis pas disponible pour répondre.

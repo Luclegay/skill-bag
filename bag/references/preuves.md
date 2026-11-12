@@ -15,7 +15,9 @@
 
 - **Rouge avant vert.** Lance le contrôle avant de corriger et constate qu’il échoue. Sinon il ne prouve rien.
 - **Montrer, pas affirmer.** Dans le message final, cite la commande lancée et son résultat, ou joins la capture.
-- **Un relecteur indépendant part d’un contexte vierge.** Il peut utiliser le même modèle, mais ne doit pas avoir vu le travail se faire. Donne-lui le contrat et le livrable, pas la conversation.
+- **Un dossier de preuve en fin de tâche** : pour chaque ligne « fini quand », la preuve (sortie de commande, capture à 375 et 1440 px, rapport du relecteur), puis ce qui n’est pas prouvé. L’utilisateur doit pouvoir vérifier d’un coup d’œil, sans relire toute la conversation.
+- **Un relecteur indépendant part d’un contexte vierge.** Il peut utiliser le même modèle, mais ne doit pas avoir vu le travail se faire. Donne-lui le contrat et le livrable, pas la conversation, et demande-lui de chercher les défauts : un modèle a tendance à être indulgent avec un travail produit par un modèle.
+- **Le goût se note avec une grille** (design, ton, clarté) : voir [gout.md](gout.md).
 - **Un chiffre sourcé peut être déformé.** Retrouver un nombre dans la source ne suffit pas : « testé » n’est pas « adopté », « grandes entreprises » n’est pas « PME », « l’IA » n’est pas « l’IA générative ». Demande au relecteur indépendant de vérifier la fidélité du sens, pas seulement la présence du chiffre.
 - **Juge aussi la source.** Date, périmètre, méthode, et ce qu’elle dit d’elle-même (une source qui se déclare fictive, provisoire ou partielle doit être signalée).
 - **Un contrôle maison a des trous.** Dis ce qu’il ne vérifie pas (par exemple les titres, les images, les tableaux).

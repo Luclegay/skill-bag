@@ -30,4 +30,6 @@
 - Rien n’est « fini » sans preuve : contrôle lancé et résultat montré.
 - Même échec deux fois, ou trois tentatives sans succès sur un problème → arrêt et appel à un humain.
 - Un commit local par étape validée ; rien n’est poussé en ligne sans accord.
-- PROGRESS.md est relu en début de session et mis à jour en fin de session.
+- Début de session : relire PROGRESS.md, `git log --oneline -5`, puis lancer la commande « Vérifier » avant toute nouvelle tâche.
+- Les critères « fini quand » sont dans fini-quand.json : l’agent ne change que le statut et la preuve.
+- PROGRESS.md est tenu à jour pour qu’une session neuve puisse reprendre à partir de lui seul.

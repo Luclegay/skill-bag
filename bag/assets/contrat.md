@@ -2,7 +2,9 @@
 
 <!-- Modèle (méthode BAG). À écrire et faire valider AVANT d’agir.
      Règle : chaque ligne « fini quand » se vérifie par oui ou par non,
-     et on indique la preuve qui la vérifiera. -->
+     et on indique la preuve qui la vérifiera.
+     Taille tâche ou projet : recopier les lignes « fini quand » dans fini-quand.json,
+     où l’agent ne change que le statut et la preuve. -->
 
 ```
 objectif :     [ce qu’il faut obtenir, en une phrase]
@@ -40,3 +42,13 @@ fini quand :   chaque chiffre renvoie à un document du dossier      → script 
                la note dit clairement ce que les sources ne couvrent pas → relecture de la partie « limites »
                un relecteur neuf ne trouve ni affirmation sans source, ni chiffre déformé → rapport du sous-agent relecteur
 ```
+
+## Dans Claude Code : le même contrat en `/goal`
+
+Pour une tâche longue, la partie vérifiable par la machine devient une commande que l’utilisateur tape :
+
+```
+/goal contact.html passe le validateur HTML sans erreur, chaque champ a un label, l’audit d’accessibilité ne signale rien à 375 et 1440 px ; montre la sortie de chaque contrôle ; ne touche pas à l’en-tête ni au pied de page ; ou arrête-toi après 20 tours
+```
+
+La ligne « un envoi de test arrive dans la boîte mail » reste hors du `/goal` : c’est l’humain qui la confirme.

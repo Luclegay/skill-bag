@@ -1,0 +1,27 @@
+{
+  "_lire": "Modèle (méthode BAG). Une entrée par ligne « fini quand ». L’agent ne change que « statut » et « preuve ». Changer, retirer ou adoucir un critère se demande à l’humain et se note dans PROGRESS.md. Statuts possibles : à prouver, prouvé, échec, à confirmer par l’humain.",
+  "tache": "ajouter un formulaire de contact",
+  "criteres": [
+    {
+      "id": 1,
+      "fini_quand": "la page s’affiche sans erreur console à 375 et 1440 px",
+      "controle": "captures et console du navigateur",
+      "statut": "à prouver",
+      "preuve": ""
+    },
+    {
+      "id": 2,
+      "fini_quand": "le validateur HTML ne signale aucune erreur",
+      "controle": "python3 outils/valider.py contact.html",
+      "statut": "à prouver",
+      "preuve": ""
+    },
+    {
+      "id": 3,
+      "fini_quand": "un envoi de test arrive dans la boîte mail",
+      "controle": "l’humain confirme",
+      "statut": "à confirmer par l’humain",
+      "preuve": ""
+    }
+  ]
+}
