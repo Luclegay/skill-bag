@@ -2,7 +2,7 @@
 
 Une skill qui fait travailler ton agent IA (Claude Code, Codex, Cursor…) en trois couches : il pose son environnement, prouve chaque résultat avant de dire « fini », et ne découpe le travail que si c’est utile.
 
-Explication complète de la méthode : [lien vers la page, à compléter].
+Explication complète de la méthode : [Harnais, boucle, graphe : le mode d’emploi des agents IA](https://bag.ru3.com/).
 
 ## Ce qu’elle fait
 
