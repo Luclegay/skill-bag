@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 716" width="760" height="716" role="img" aria-labelledby="t d">
+  <title id="t">Trois couches autour d’un modèle</title>
+  <desc id="d">Une question par couche. Pose-les dans l’ordre : le premier « non » désigne la couche à réparer. 1. Harnais (l’environnement) : Peut-il agir ? Outils, mémoire, permissions et traces : tout ce qui entoure le modèle pour qu’il puisse travailler. 2. Boucle (la preuve) : Est-ce prouvé ? Un contrôle qui peut échouer, un retour précis sur l’erreur, des conditions d’arrêt. 3. Graphe (le flux) : Et ensuite ? Des tâches reliées entre elles : qui fait quoi, à quel moment, avec quelles données. Les couches s’emboîtent : un graphe est fait de boucles, et chaque boucle tourne dans un harnais. S’il en manque une, c’est toi qui fais le travail à sa place.</desc>
+  <rect id="fond" width="760" height="716" fill="#f7f3ec"/>
+  <g id="titre">
+    <text x="30" y="56" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="32" font-weight="700" fill="#1d1b18">Trois couches autour d’un modèle</text>
+    <text x="30" y="92" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="400" fill="#5a544b">
+      <tspan x="30" dy="0">Une question par couche. Pose-les dans l’ordre : le premier « non » désigne la couche à</tspan>
+      <tspan x="30" dy="25">réparer.</tspan>
+    </text>
+  </g>
+  <g id="couche-1-harnais">
+    <rect x="30" y="142" width="700" height="122" rx="12" fill="#ffffff" stroke="#d9d1c3" stroke-width="1.5"/>
+    <path d="M42,142 H230 V264 H42 A12,12 0 0 1 30,252 V154 A12,12 0 0 1 42,142 Z" fill="#1a6b63" />
+    <circle cx="66" cy="203" r="20" fill="#ffffff"/>
+    <text x="66" y="212" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="24" font-weight="700" fill="#1a6b63" text-anchor="middle">1</text>
+    <text x="98" y="200" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="27" font-weight="700" fill="#ffffff">Harnais</text>
+    <text x="98" y="226" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff">L’environnement</text>
+    <text x="254" y="188" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="26" font-weight="700" fill="#1a6b63" font-style="italic">Peut-il agir ?</text>
+    <text x="254" y="218" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#1d1b18">
+      <tspan x="254" dy="0">Outils, mémoire, permissions et traces : tout ce qui</tspan>
+      <tspan x="254" dy="24">entoure le modèle pour qu’il puisse travailler.</tspan>
+    </text>
+  </g>
+  <g id="fleche-1">
+    <line x1="130" y1="268" x2="130.0" y2="291.6" stroke="#1d1b18" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="130,306 123.2,291.6 136.8,291.6" fill="#1d1b18"/>
+    <text x="152" y="293" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#5a544b">Oui ? Passe à la question suivante.</text>
+  </g>
+  <g id="couche-2-boucle">
+    <rect x="30" y="310" width="700" height="122" rx="12" fill="#ffffff" stroke="#d9d1c3" stroke-width="1.5"/>
+    <path d="M42,310 H230 V432 H42 A12,12 0 0 1 30,420 V322 A12,12 0 0 1 42,310 Z" fill="#ad3c20" />
+    <circle cx="66" cy="371" r="20" fill="#ffffff"/>
+    <text x="66" y="380" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="24" font-weight="700" fill="#ad3c20" text-anchor="middle">2</text>
+    <text x="98" y="368" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="27" font-weight="700" fill="#ffffff">Boucle</text>
+    <text x="98" y="394" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff">La preuve</text>
+    <text x="254" y="356" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="26" font-weight="700" fill="#ad3c20" font-style="italic">Est-ce prouvé ?</text>
+    <text x="254" y="386" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#1d1b18">
+      <tspan x="254" dy="0">Un contrôle qui peut échouer, un retour précis sur</tspan>
+      <tspan x="254" dy="24">l’erreur, des conditions d’arrêt.</tspan>
+    </text>
+  </g>
+  <g id="fleche-2">
+    <line x1="130" y1="436" x2="130.0" y2="459.6" stroke="#1d1b18" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="130,474 123.2,459.6 136.8,459.6" fill="#1d1b18"/>
+    <text x="152" y="461" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#5a544b">Oui ? Passe à la question suivante.</text>
+  </g>
+  <g id="couche-3-graphe">
+    <rect x="30" y="478" width="700" height="122" rx="12" fill="#ffffff" stroke="#d9d1c3" stroke-width="1.5"/>
+    <path d="M42,478 H230 V600 H42 A12,12 0 0 1 30,588 V490 A12,12 0 0 1 42,478 Z" fill="#5640b8" />
+    <circle cx="66" cy="539" r="20" fill="#ffffff"/>
+    <text x="66" y="548" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="24" font-weight="700" fill="#5640b8" text-anchor="middle">3</text>
+    <text x="98" y="536" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="27" font-weight="700" fill="#ffffff">Graphe</text>
+    <text x="98" y="562" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff">Le flux</text>
+    <text x="254" y="524" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif" font-size="26" font-weight="700" fill="#5640b8" font-style="italic">Et ensuite ?</text>
+    <text x="254" y="554" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#1d1b18">
+      <tspan x="254" dy="0">Des tâches reliées entre elles : qui fait quoi, à quel</tspan>
+      <tspan x="254" dy="24">moment, avec quelles données.</tspan>
+    </text>
+  </g>
+  <g id="pied">
+    <line x1="30" y1="624" x2="730" y2="624" stroke="#d9d1c3" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="30" y="654" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" fill="#5a544b">
+      <tspan x="30" dy="0">Les couches s’emboîtent : un graphe est fait de boucles, et chaque boucle tourne dans un</tspan>
+      <tspan x="30" dy="24">harnais. S’il en manque une, c’est toi qui fais le travail à sa place.</tspan>
+    </text>
+  </g>
+</svg>

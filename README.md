@@ -1,5 +1,7 @@
 # Skill BAG : harnais, boucle, graphe
 
+![Schéma « Trois couches autour d’un modèle » : 1. Harnais, peut-il agir ? 2. Boucle, est-ce prouvé ? 3. Graphe, et ensuite ? Pose les questions dans l’ordre : le premier « non » désigne la couche à réparer.](images/01-trois-couches.svg)
+
 Une skill qui fait travailler ton agent IA (Claude Code, Codex, Cursor…) en trois couches : il pose son environnement, prouve chaque résultat avant de dire « fini », et ne découpe le travail que si c’est utile.
 
 Explication complète de la méthode : [Harnais, boucle, graphe : le mode d’emploi des agents IA](https://bag.ru3.com/).
@@ -81,6 +83,8 @@ bag/
 │   └── fini-quand.json   modèle de liste de critères à cocher
 └── evals/                les tests de la skill (voir evals/README.md)
 ```
+
+À côté de `bag/`, le dossier `images/` contient le schéma affiché en tête de cette page.
 
 ## Tester
 
