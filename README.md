@@ -44,6 +44,21 @@ Le dossier `bag/` suit le format ouvert [Agent Skills](https://agentskills.io) (
 
 Ensuite, dis simplement : « Active BAG pour ce projet. » Ou tape `/bag` devant ta demande : la skill se charge seule sur la plupart des demandes, mais pas toujours sur un petit correctif.
 
+### Plan Claude Team (ou Enterprise) : installer pour toute l’équipe
+
+Un propriétaire (*owner*) du compte peut installer la skill une seule fois pour tous les membres, sans que chacun la copie.
+
+1. Télécharge [bag.zip](https://github.com/Luclegay/skill-bag/releases/latest/download/bag.zip) : la skill sans les tests, avec `SKILL.md` à la racine du zip.
+2. Dans Organization settings > Plugins & skills, onglet « Policy », vérifie que « Cloud code execution and file creation » et « Skills » sont activés.
+3. Clique sur « Add », puis « Upload a skill », et envoie le zip. La skill est aussitôt fournie à tous les membres, dans Customize > Skills sur claude.ai, et dans Claude Code pour ceux qui s’y connectent avec leur compte Claude.
+
+À savoir :
+
+- Seuls les propriétaires du compte peuvent ajouter ou retirer une skill d’organisation. Procédure officielle : [Provision and manage skills for your organization](https://support.claude.com/en/articles/13119606-managing-skills-as-an-admin).
+- Le contrôle de fin de tour et `/goal` sont prévus pour Claude Code. Dans le chat sur claude.ai, seule la méthode écrite s’applique.
+- Dans Claude Code, une copie personnelle `bag` (dans `~/.claude/skills/`) passe devant la version de l’équipe.
+- Pour mettre à jour, envoie le nouveau zip de la dernière version.
+
 ## Enlever
 
 Supprime le dossier `bag/`. Les fichiers qu’elle a créés dans ton projet (`AGENTS.md`, `PROGRESS.md`, `fini-quand.json`, réglages) restent : ils sont à toi, garde-les ou supprime-les.
